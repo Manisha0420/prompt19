@@ -1,0 +1,192 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+}
+html,body{
+     width: 100%;
+     height: 100%;
+}
+.main{
+     width: 100vw;
+     height: 100vh;
+     background: url(https://images.unsplash.com/photo-1638443523564-46b8a648c5a1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.main > nav {
+     width: 100vw;
+     height: 10vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0.2rem 2rem;
+}
+.main > nav > .image{
+     width: 10vw;
+     display: flex;
+     gap:1%;
+}
+.main > nav > div >img{
+     width: 2vw;
+}
+.main > nav > div >h1{
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: white;
+}
+
+.main > nav > .link{
+     width: 35vw;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: space-between;
+     gap: 5%;
+     background-color: #1A1B1E;
+     padding: 0.3rem 1.8rem;
+     border-radius: 2rem;
+}
+.main > nav > .link>a{
+     text-decoration: none;
+     color: #A1A2A3;
+     font-size: 1.2rem;
+     font-weight: 500;
+}
+.main > nav > .link>.home{
+     background-color: white;
+     color: black;
+     padding: 0.4rem 2rem;
+     border-radius: 2rem;
+     margin-left: -1.1rem;
+}
+
+.main > nav > .link>.shop{
+     background-color:#272727;
+     color: #A1A2A3;
+     padding: 0.4rem 2.5rem;    
+     border-radius: 2rem;
+}
+.main > nav > .btn{
+     width: 16vw;
+}
+.main > nav > .btn >i{
+     font-size: 1.3rem;
+     background-color: #1A1B1E;
+     color: #A1A2A3;
+     padding: 0.5rem;
+     border-radius: 50%;
+}
+.main > nav > .btn >button{
+     padding: 0.5rem 1rem;
+     border-radius: 3rem;
+     font-size: 1.1rem;
+     border: none;
+     background-color:#272727;
+     color: #A1A2A3;
+     margin: 0.2rem;
+}
+.main > nav > .btn >button:hover{
+     border: 1px solid white;
+     color: white;
+     background-color: transparent;
+}
+.main > nav > .btn >.sign{
+     background-color: aliceblue;
+     color: rgba(0, 0, 0, 0.656);
+}
+.main > .page1{
+     width: 100vw;
+     height: 50vh;
+     text-align: center;
+     padding-top: 1rem;
+}
+.main > .page1 > span{
+     border: 1px solid white;
+     padding: 0.4rem 2rem;
+     border-radius: 3rem;
+     font-size: 1rem;
+     color: #eaeaeb;
+}
+.main > .page1 > h1{
+     font-size: 3.5rem;
+     font-weight: 500;
+     color: #eaeaeb;
+     margin: 2rem;
+     line-height: 0.8;
+}
+.main > .page1 > p{
+     font-size: 1rem;
+     font-weight: 100;
+     color: #eaeaeb;
+     margin: 1rem;
+}
+.main > .page1 > button{
+     padding: 0.5rem 1.1rem;
+     border-radius: 3rem;
+     font-size: 1.2rem;
+     background-color:#eaeaeb;
+     border: none;
+     color: black;
+     margin: 0.2rem;
+}
+.main > .page1 > button:hover{
+     border: 1px solid white;
+     color: white;
+     background-color: transparent;
+}
+.main > .page1 > button >i{
+     font-size: 1.5rem;
+}
+.main > .page2{
+     width: 100vw;
+     height: 50vh;
+     display: flex;
+     justify-content: space-between;
+     gap: 5%;
+     padding: 0rem 5rem;
+     position: absolute;
+
+}
+.main > .page2 > img{
+     width: 50vw;
+     height: 40vh;
+     object-fit: cover;
+     border-radius: 20rem 20rem 0rem 0rem;
+}
+.main > .page2 > img:hover{
+     width: 60vw;
+     height: 40vh;
+}
+.main> .swip{
+     font-size: 2rem;
+     display: flex;
+     justify-content: space-between;
+     padding: 0rem 19rem;
+     position: relative;
+     top: 10rem;
+}
+.main > .swip >i{
+     font-size: 3rem;
+     color:rgb(252, 249, 249);
+}
+.main > .swip > div{
+     width: 5vw;
+     height: 15vh;
+    border-radius:100px 100px 100px  100px;
+    background-color:#b5a598d6;
+    border: 1px solid #B5A598;
+
+}
+.main > .swip > div> img{
+     width:2.5vw;
+    margin: 0.5rem 1.2rem;
+    border-radius:50px 50px 50px  50px;
+    object-fit: contain;
+
+}
+.main > .swip > div >h1{
+     font-size: 0.6rem;
+     text-align: center;
+}
